@@ -1,0 +1,167 @@
+:root {
+    --main-color: #29b5e8;
+    }
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    body{
+      background-image: url('/assets/images/background.png');
+      width: 100%;
+    }
+    .all{
+        /* text-align: center;
+        margin: 100px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    
+    .forms{
+        background-color: #fff;
+        padding: 1.2rem 1.4rem;
+        text-align: center;
+        border-radius: 5px;
+        width: 340px;
+        font-size: 0.8rem;
+        
+        
+        /* border: 1px dashed #29b5e8; */
+        box-shadow: 10px 10px 30px 3px;
+        animation: dropIn 1.2s ease-in;
+    }
+    @keyframes dropIn {
+        0%{
+            opacity: 0;
+            transform: translate3d(0, -35%, 0);
+        }
+        100%{
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    img{
+      width: 7rem;
+    }
+    h2{
+      padding: 15px 0px;
+      color: #808080;
+      font-weight: normal;
+    }
+    .inputs{
+      width: 100%;
+    }
+    .form-control{
+      padding: 9px 0px;
+      
+    }
+    .input{
+      padding: 9px 12px;
+      border-radius: 5px;
+      border: 1px dashed #29b5e8;
+      outline: none;
+      width: 100%;
+    }
+
+    .check-forget{
+        color: #808080;
+        font-weight: normal;
+        padding: 9px 0px;
+        margin-bottom: 9px;
+    }
+    .check{
+        float: left;
+    }
+    input[type=checkbox]{
+        width: auto;
+    }
+    .forget-password{
+        float: right;
+    }
+    .showpassword{
+      position: absolute;
+      padding: 9px 8px 0px 0px;
+      margin-left: -22px;
+      color: #808080;
+      cursor: pointer;
+  }
+  
+    .button{
+      padding: 6px;
+      width: 100%;
+      background-color: #29b5e8;
+      cursor: pointer;
+      border: 1px dashed #29b5e8;
+      outline: none;
+      border-radius: 5px;
+      color: #fff;
+    }
+    .button:hover{
+      background-color: #58c7ef;
+      transition: 0.8s;
+    }
+    .buttons{
+      padding: 3px 6px;
+      background-color: #29b5e8;
+      cursor: pointer;
+      border: 1px dashed #29b5e8;
+      outline: none;
+      border-radius: 3px;
+      color: #fff;
+    }
+    .buttons a{
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .hr{
+        border-top: 0px solid #808080;
+        margin: 9px 0px;
+    }
+
+    .join{
+        padding: 9px 0px;
+        font-weight: normal;
+        color: #808080;
+    }
+    a{
+      text-decoration: none;
+      color: #29b5e8;
+    }
+
+    .error{
+      background-color: #faeded;
+      padding: 6px;
+      color: #c5221f;
+      width: 80%;
+      text-align: center;
+      margin: 5px auto;
+      border-radius: 3px;
+      padding: 3px 5px;
+      border: 1px solid #c5221f;
+      opacity: 0.8;
+    }
+    .success{
+      background-color: #daf6ea;
+      padding: 6px;
+      color: #4bd396;
+      width: 80%;
+      text-align: center;
+      margin: 5px auto;
+      border-radius: 3px;
+      border: 1px solid #4bd396;
+      opacity: 0.8;
+    }
+
+    @media screen and (max-width: 750px) {
+        .forms{
+            width: 300px;
+        }
+    }
