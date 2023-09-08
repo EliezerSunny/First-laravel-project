@@ -17,7 +17,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 * This web application was designed to let users save there important documents like pictures, files. And also allows you to chat with your members registered on the this platform. 
 * Each users must create an to be a member of this platform.
-* Each users also have access to there personal  documents wans it uploaded. But you don't have access to others docs.
+* Each users also have access to there personal  documents once it's uploaded. But you don't have access to others docs.
 * Members of this platform have access to chat with each other in real time.
 
 ## Features of this web application
